@@ -1,0 +1,24 @@
+{
+  "categories": {
+    "nature": [
+      "A beautiful sunset over mountains with a river flowing",
+      "Majestic waterfall in a tropical rainforest"
+    ],
+    "cityscape": [
+      "Cyberpunk city at night with neon lights",
+      "Ancient European city with cobblestone streets"
+    ]
+  },
+  "style_modifiers": {
+    "art_styles": [
+      "oil painting",
+      "watercolor",
+      "pencil sketch"
+    ],
+    "photography_styles": [
+      "cinematic",
+      "film noir",
+      "portrait"
+    ]
+  }
+}

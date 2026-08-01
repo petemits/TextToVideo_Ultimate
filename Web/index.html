@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Text-to-Video Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Ultimate Text-to-Video Generator</h1>
+            <p class="subtitle">Transform text into stunning videos with AI</p>
+        </header>
+
+        <main class="main-content">
+            <div class="input-section">
+                <h2>Video Prompt</h2>
+                <textarea id="prompt-input" 
+                          placeholder="Describe your video... 
+Example: 'A beautiful sunset over mountains with a river flowing'"
+                          rows="5"></textarea>
+                
+                <div class="prompt-actions">
+                    <button id="generate-btn" class="btn btn-primary">
+                        Generate Video
+                    </button>
+                    <button id="clear-btn" class="btn btn-secondary">
+                        Clear
+                    </button>
+                </div>
+            </div>
+
+            <div class="settings-section">
+                <h2>Settings</h2>
+                
+                <div class="settings-grid">
+                    <div class="setting">
+                        <label for="duration">Duration (seconds)</label>
+                        <input type="range" id="duration" min="2" max="60" value="10">
+                        <span id="duration-value">10s</span>
+                    </div>
+                    
+                    <div class="setting">
+                        <label for="style">Style</label>
+                        <select id="style">
+                            <option value="cinematic">Cinematic</option>
+                            <option value="anime">Anime</option>
+                            <option value="painting">Oil Painting</option>
+                            <option value="cyberpunk">Cyberpunk</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="preview-section">
+                <h2>Preview</h2>
+                <div class="video-preview">
+                    <div id="preview-placeholder">
+                        <p>Your video will appear here</p>
+                    </div>
+                    <video id="video-preview" controls style="display: none;"></video>
+                </div>
+                
+                <div class="preview-controls">
+                    <button id="download-btn" class="btn btn-success" disabled>
+                        Download Video
+                    </button>
+                </div>
+            </div>
+
+            <div class="tasks-section">
+                <h2>Recent Tasks</h2>
+                <div class="tasks-list" id="tasks-list">
+                    <div class="task-placeholder">
+                        <p>No tasks yet</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>TextToVideo_Ultimate System | Hybrid AI Video Generation</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

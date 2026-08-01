@@ -1,0 +1,27 @@
+{
+  "style_presets": {
+    "cinematic": {
+      "description": "Hollywood movie style",
+      "color_palette": [
+        "dark_blue",
+        "teal",
+        "orange"
+      ],
+      "effects": [
+        "film_grain",
+        "vignette"
+      ]
+    },
+    "anime": {
+      "description": "Japanese anime style",
+      "color_palette": [
+        "vibrant",
+        "pastel"
+      ],
+      "effects": [
+        "clean_lines",
+        "cel_shading"
+      ]
+    }
+  }
+}

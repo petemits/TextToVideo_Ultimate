@@ -1,0 +1,24 @@
+{
+  "system": {
+    "name": "TextToVideo_Ultimate",
+    "version": "1.0.0",
+    "optimized_for": "4GB_RAM"
+  },
+  "paths": {
+    "output_dir": "./output",
+    "frames_dir": "./output/frames",
+    "videos_dir": "./output/videos",
+    "logs_dir": "./logs"
+  },
+  "video_settings": {
+    "default_resolution": "1280x720",
+    "default_fps": 30,
+    "default_duration": 10,
+    "max_duration": 60
+  },
+  "ai_settings": {
+    "default_model": "stable_diffusion",
+    "default_steps": 20,
+    "default_guidance_scale": 7.5
+  }
+}

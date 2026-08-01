@@ -1,0 +1,29 @@
+{
+  "wave_effects": {
+    "simple_sine_wave": {
+      "frequency": 0.05,
+      "amplitude": 10.0
+    }
+  },
+  "transformation_matrices": {
+    "identity": {
+      "matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    }
+  }
+}
